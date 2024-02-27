@@ -1,0 +1,43 @@
+/* Option 2: Import via CSS */
+
+
+.top-div{
+  background-color: #000;
+  background-image: url(	https://goorderz.hu/wp-content/uploads/2022/10/GoKIOSK_kezdokep.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-width: 100vh;
+ background-position:center;
+ height: 50vh;
+  max-height: 50vh;
+  min-height: 20vh;
+background-size: cover;
+display: grid;
+}
+body{
+  color: #892be2a2;
+}
+.listm{
+padding: 1rem;
+  font-weight: 700;
+}
+.listm:hover{
+  background-color: #892be2;
+  color: white;
+  animation: rotate 0.6s ;
+}
+@keyframes rotate {
+  0%{
+    opacity: 0%;
+  }100%{
+    opacity: 100%;
+  }
+}
+button{
+
+  transition: all 2s ease-in-out;
+}
+button:hover{
+  transform: scale(1.1);
+
+}
